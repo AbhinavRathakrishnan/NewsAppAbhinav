@@ -1,16 +1,40 @@
-# news
+#  NewsApp  
 
-A new Flutter project.
+##  Overview  
+The **NewsApp** is a **Flutter-based mobile application** that fetches and displays real-time news articles from [NewsAPI.org](https://newsapi.org/). Users can **search for news**, filter articles by **category**, and view **headlines with images**. The app is designed to be **lightweight and user-friendly**, supporting **only light mode** (dark mode removed) and **launches instantly without a splash screen**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features  
+ **Fetch real-time news** from NewsAPI  
+ **Search news** by keyword  
+ **Category filters** (Business, Sports, Technology, etc.)  
+ **Light mode only** (Dark mode removed)  
+ **Provider for State Management**  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack  
+- **Flutter (Dart)** – UI framework  
+- **Provider** – State management  
+- **HTTP package** – API requests  
+- **NewsAPI.org** – News source  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+---
+
+##  API Integration  
+
+The app fetches news from **NewsAPI.org**.  
+
+### Steps to Configure API Key:  
+ **Get your API key** from [NewsAPI](https://newsapi.org/).  
+ **Store the key in a `.env` file:**  
+```env
+API_KEY=your_api_key_here
+```
+
+
+
+
